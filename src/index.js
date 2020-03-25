@@ -15,7 +15,7 @@ ReactDOM.render(
   <DirectoryProvider>
     <CartProvider>
       <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename="/react-context-lesson">
           <PersistGate persistor={persistor}>
             <App />
           </PersistGate>
