@@ -1,7 +1,6 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
-
 import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
@@ -46,7 +45,6 @@ class App extends React.Component {
           });
         });
       }
-
       this.setState({ currentUser: userAuth });
     });
   }
@@ -76,6 +74,7 @@ class App extends React.Component {
                 )
             }
           />
+         
         </Switch>
       </div>
     );
